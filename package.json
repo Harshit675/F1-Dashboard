@@ -1,0 +1,27 @@
+{
+  "name": "f1-pit-dashboard",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "make": "electron-builder"
+  },
+  "build": {
+    "appId": "com.harshit.pitdashboard",
+    "productName": "F1 Pit Dashboard",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.6.0"
+  }
+}
