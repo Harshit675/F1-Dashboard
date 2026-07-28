@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.harshit.pitdashboard
+productName: F1 Pit Dashboard
+win:
+  target: nsis
+mac:
+  target: dmg
+files: []
+electronVersion: 31.7.7
